@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="document.css">
+   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>HTML Documentation Page</title>
+</head>
+
+<body>
+    <nav id="navbar">
+    <header><h1>HTML Documentation</h1></header>
+<a class="nav-link" href="#Introduction">Introduction</a>
+<a class="nav-link" href="#HTML_Elements">Html Elements</a>
+<a class="nav-link" href="#Attributes">Attributes</a>
+<a class="nav-link" href="#Forms">Forms</a>
+<a class="nav-link" href="#Semantic_HTML">Semantic HTML</a>
+  </nav>
+
+<main id="main-doc">
+  <section id="Introduction" class="main-section">
+    <header><h1>Introduction</h1></header>
+          <p>HTML stands for HyperText Markup Language. It is the standard markup language used to create webpages.</p>
+      <p>HTML describes the structure of a webpage using elements represented by tags like <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, <code>&lt;body&gt;</code>, etc.</p>
+      <p>Browsers read HTML files and render them into visible or audible web pages.</p>
+      <code>
+        &lt;!DOCTYPE html&gt;<br>
+        &lt;html&gt;<br>
+        &nbsp;&nbsp;&lt;head&gt;&lt;/head&gt;<br>
+        &nbsp;&nbsp;&lt;body&gt;&lt;/body&gt;<br>
+        &lt;/html&gt;
+      </code>
+
+  </section>
+  <section id="HTML_Elements" class="main-section">
+    <header ><h1>HTML Elements</h1></header>
+    <p>HTML elements are building blocks of web pages. Each element is defined by a starting tag, content, and an ending tag.</p>
+      <p>Some common HTML elements include:</p>
+      <ul>
+        <li><code>&lt;p&gt;</code> – Paragraph</li>
+        <li><code>&lt;a&gt;</code> – Anchor (links)</li>
+        <li><code>&lt;img&gt;</code> – Image</li>
+        <li><code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code> – Lists</li>
+        <li><code>&lt;div&gt;</code> – Division or container</li>
+      </ul>
+      <code>
+        &lt;p&gt;This is a paragraph.&lt;/p&gt;<br>
+        &lt;a href="https://example.com"&gt;Visit Example&lt;/a&gt;
+      </code>
+
+  </section>
+  <section  id="Attributes" class="main-section">
+    <header ><h1>Attributes</h1></header>
+    <p>HTML elements can have attributes that provide additional information.</p>
+      <p>Attributes are always included in the opening tag and usually come in name/value pairs like <code>name="value"</code>.</p>
+      <p>Examples of common attributes:</p>
+      <ul>
+        <li><code>href</code> – for links</li>
+        <li><code>src</code> – for images</li>
+        <li><code>alt</code> – alternative text</li>
+        <li><code>id</code> – unique identifier</li>
+        <li><code>class</code> – for CSS styling</li>
+      </ul>
+      <code>
+        &lt;img src="image.jpg" alt="A sample image"&gt;<br>
+        &lt;a href="https://freecodecamp.org"&gt;FreeCodeCamp&lt;/a&gt;
+      </code>
+  </section>
+  <section id="Forms" class="main-section">
+    <header ><h1>Forms</h1></header>
+     <p>HTML forms are used to collect user input. They contain form elements like input fields, radio buttons, checkboxes, submit buttons, etc.</p>
+      <p>A basic form looks like this:</p>
+      <code>
+        &lt;form action="/submit" method="post"&gt;<br>
+        &nbsp;&nbsp;&lt;label for="name"&gt;Name:&lt;/label&gt;<br>
+        &nbsp;&nbsp;&lt;input type="text" id="name" name="name"&gt;&lt;br&gt;<br>
+        &nbsp;&nbsp;&lt;input type="submit" value="Submit"&gt;<br>
+        &lt;/form&gt;
+      </code>
+  </section>
+  <section id="Semantic_HTML"  class="main-section">
+    <header ><h1>Semantic HTML<h1></header>
+    <p>Semantic HTML introduces meaning to the web page instead of just presentation.</p>
+      <p>Examples of semantic tags include:</p>
+      <ul>
+        <li><code>&lt;header&gt;</code> – Introductory content</li>
+        <li><code>&lt;nav&gt;</code> – Navigation links</li>
+        <li><code>&lt;article&gt;</code> – Self-contained content</li>
+        <li><code>&lt;section&gt;</code> – Thematic grouping of content</li>
+        <li><code>&lt;footer&gt;</code> – Footer information</li>
+      </ul>
+      <code>
+        &lt;article&gt;<br>
+        &nbsp;&nbsp;&lt;h2&gt;Blog Post&lt;/h2&gt;<br>
+        &nbsp;&nbsp;&lt;p&gt;This is an article.&lt;/p&gt;<br>
+        &lt;/article&gt;
+      </code>
+  </section>
+
+
+  
+</main>
+</body>
+
+</html>
